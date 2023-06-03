@@ -35,13 +35,13 @@ const Menu = ({ showCatMenu, setShowCatMenu }) => {
                 <BsChevronDown size={14} />
 
                 {showCatMenu && (
-                  <ul className="bg-white absolute left-0 min-w-[250px] px-1 py-1 text-black shadow-lg">
-                    {subMenuData.map((subMenu) => {
+                  <ul className="bg-white top-6 absolute left-0 min-w-[250px] px-1 py-1 text-black shadow-lg">
+                    {subMenuData.map((submenu) => {
                       return (
                         // eslint-disable-next-line react/jsx-key
-                        <Link key={subMenu.id} href="/">
+                        <Link key={submenu.id} href="/">
                           <li className="h-12 flex justify-between items-center px-3 hover:bg-indigo-300/75 rounded-md">
-                            {subMenu.name}
+                            {submenu.name}
                             <span className="opacity-50 text-sm">78</span>
                           </li>
                         </Link>

@@ -13,13 +13,16 @@ const Header = () => {
   // cutom value added in square bracket
   return (
     <header
-      className={`w-full h-[50px] md:h-[80px] bg-white flex items-center justify-between z-20 sticky top-0 transition-transform duration-300 ${show}`}
+      className={`w-full h-[50px] md:h-[80px] bg-white flex items-center justify-between z-20 sticky top-6 transition-transform duration-300 ${show}`}
     >
       <Wrapper>
         <Link href="/">
-          <img src="/logo.svg" className="w-[40px] md:w-[60px]" />
+          <img
+            src="https://thumbs.dreamstime.com/t/green-thread-needle-eye-sewing-tailoring-tools-kit-single-icon-black-style-vector-symbol-stock-illustration-web-90351967.jpg"
+            className="w-[40px] md:w-[60px]"
+          />
         </Link>
-        <Menu showCatMenu={showCatMenu} />
+        <Menu showCatMenu={showCatMenu} setShowCatMenu={setShowCatMenu} />
       </Wrapper>
     </header>
   );
