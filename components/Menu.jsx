@@ -11,10 +11,10 @@ const data = [
 ];
 
 const subMenuData = [
-  { id: 1, name: 'Silbury', doc_count: 200 },
-  { id: 2, name: 'LimeLight', doc_count: 15 },
-  { id: 3, name: 'Khaadi', doc_count: 64 },
-  { id: 4, name: 'NishatLinen', doc_count: 107 },
+  { id: 1, name: 'Hijabs', doc_count: 200 },
+  { id: 2, name: 'Inner Cap', doc_count: 15 },
+  { id: 3, name: 'Jilbabs', doc_count: 64 },
+  { id: 4, name: 'Over Sleeves', doc_count: 107 },
 ];
 
 const Menu = ({ showCatMenu, setShowCatMenu }) => {

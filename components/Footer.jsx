@@ -168,25 +168,25 @@ const Footer = () => {
               <ul class="mt-6 space-y-4 text-sm">
                 <li>
                   <Link href="#" class="text-black transition hover:opacity-75">
-                    Silbery
+                    Khimars
                   </Link>
                 </li>
 
                 <li>
                   <Link href="#" class="text-black transition hover:opacity-75">
-                    LimeLight
+                    Jilbabs
                   </Link>
                 </li>
 
                 <li>
                   <Link href="#" class="text-black transition hover:opacity-75">
-                    Khaadi
+                    Abaya
                   </Link>
                 </li>
 
                 <li>
                   <Link href="#" class="text-black transition hover:opacity-75">
-                    NishatLinen
+                    Hijabs
                   </Link>
                 </li>
               </ul>
