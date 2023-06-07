@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Wrapper from './Wrapper';
 import Link from 'next/link';
 import Menu from './Menu';
+import MobileMenu from './MobileMenu';
 
 import { IoMdHeartEmpty } from 'react-icons/io';
 import { BsCart } from 'react-icons/bs';
@@ -14,6 +15,27 @@ const Header = () => {
   const [show, setShow] = useState('translate-y-0');
   const [lastScrolly, setLastScrolly] = useState(0);
 
+  // window scroll event listner + method
+  const controlNavbar = () => {
+    if (window.scrollY > 200) {
+      if (window.scrollY > lastScrolly && !mobileMenu) {
+        setShow('-translate-y-[80px]');
+      } else {
+        setShow('shadow-sm');
+      }
+    } else {
+      setShow('translate-y-0');
+    }
+    setLastScrolly(window.scrollY);
+  };
+
+  // window scroll event listner
+  useEffect(() => {
+    window.addEventListener('scroll', controlNavbar);
+    return () => {
+      window.removeEventListener('scroll', controlNavbar);
+    };
+  }, [lastScrolly]);
   // HEADER SYMENTIC TAG // in curly bracketbeacuse we use extra classes in that
   // cutom value added in square bracket
   return (
@@ -28,7 +50,13 @@ const Header = () => {
           />
         </Link>
         <Menu showCatMenu={showCatMenu} setShowCatMenu={setShowCatMenu} />
-
+        {mobileMenu && (
+          <MobileMenu
+            showCatMenu={showCatMenu}
+            setShowCatMenu={setShowCatMenu}
+            setMobileMenu={setMobileMenu}
+          />
+        )}
         <div className=" flex items-center gap-2 text-black">
           {/* Icon start */}
 
