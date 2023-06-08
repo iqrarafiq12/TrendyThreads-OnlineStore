@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable @next/next/no-img-element */
 import React, { useState, useEffect } from 'react';
 import Wrapper from './Wrapper';
 import Link from 'next/link';
@@ -35,7 +37,8 @@ const Header = () => {
     return () => {
       window.removeEventListener('scroll', controlNavbar);
     };
-  }, [lastScrolly]);
+  }, [controlNavbar, lastScrolly]);
+
   // HEADER SYMENTIC TAG // in curly bracketbeacuse we use extra classes in that
   // cutom value added in square bracket
   return (

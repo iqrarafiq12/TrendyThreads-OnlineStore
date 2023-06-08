@@ -1,5 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import Link from 'next/link';
+
 const ProductCard = () => {
   return (
     <>
@@ -19,7 +21,7 @@ const ProductCard = () => {
 
           <ul className="grid grid-cols-1 gap-4 mt-8 lg:grid-cols-3">
             <li>
-              <Link href="#" className="relative block group">
+              <Link href="/product/1" className="relative block group">
                 <img
                   src="/FS-01.png"
                   alt=""
