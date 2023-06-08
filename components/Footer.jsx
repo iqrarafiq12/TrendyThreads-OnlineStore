@@ -3,21 +3,21 @@ import Link from 'next/link';
 const Footer = () => {
   return (
     <>
-      <footer class="bg-slate-100">
-        <div class="mx-auto max-w-screen-xl space-y-8 px-4 py-14 sm:px-6 lg:space-y-16 lg:px-8">
-          <div class="sm:flex sm:items-center sm:justify-between">
-            <ul class="mt-1 flex justify-start gap-6 sm:mt-0 sm:justify-center">
+      <footer className="bg-slate-100">
+        <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-14 sm:px-6 lg:space-y-16 lg:px-8">
+          <div className="sm:flex sm:items-center sm:justify-between">
+            <ul className="mt-1 flex justify-start gap-6 sm:mt-0 sm:justify-center">
               <li>
                 <a
                   href="/"
                   rel="noreferrer"
                   target="_blank"
-                  class="text-black transition hover:opacity-75"
+                  className="text-black transition hover:opacity-75"
                 >
-                  <span class="sr-only">Facebook</span>
+                  <span className="sr-only">Facebook</span>
 
                   <svg
-                    class="h-6 w-6"
+                    className="h-6 w-6"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
@@ -36,12 +36,12 @@ const Footer = () => {
                   href="/"
                   rel="noreferrer"
                   target="_blank"
-                  class="text-black transition hover:opacity-75"
+                  className="text-black transition hover:opacity-75"
                 >
-                  <span class="sr-only">Instagram</span>
+                  <span className="sr-only">Instagram</span>
 
                   <svg
-                    class="h-6 w-6"
+                    className="h-6 w-6"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
@@ -60,12 +60,12 @@ const Footer = () => {
                   href="/"
                   rel="noreferrer"
                   target="_blank"
-                  class="text-black transition hover:opacity-75"
+                  className="text-black transition hover:opacity-75"
                 >
-                  <span class="sr-only">Twitter</span>
+                  <span className="sr-only">Twitter</span>
 
                   <svg
-                    class="h-6 w-6"
+                    className="h-6 w-6"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
@@ -80,9 +80,9 @@ const Footer = () => {
                   href="/"
                   rel="noreferrer"
                   target="_blank"
-                  class="text-black transition hover:opacity-75"
+                  className="text-black transition hover:opacity-75"
                 >
-                  <span class="sr-only">GitHub</span>
+                  <span className="sr-only">GitHub</span>
 
                   <svg
                     class="h-6 w-6"
@@ -104,9 +104,9 @@ const Footer = () => {
                   href="/"
                   rel="noreferrer"
                   target="_blank"
-                  class="text-black  transition hover:opacity-75"
+                  className="text-black  transition hover:opacity-75"
                 >
-                  <span class="sr-only">Dribbble</span>
+                  <span className="sr-only">Dribbble</span>
 
                   <svg
                     class="h-6 w-6"
@@ -125,37 +125,52 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div class="grid grid-cols-1 gap-4 border-t border-gray-100 pt-1 sm:grid-cols-2 lg:grid-cols-4 lg:pt-16">
+          <div className="grid grid-cols-1 gap-4 border-t border-gray-100 pt-1 sm:grid-cols-2 lg:grid-cols-4 lg:pt-16">
             <div>
-              <p class="text-2xl text-black">Services</p>
+              <p className="text-2xl text-black">Services</p>
 
-              <ul class="mt-4 space-y-4 text-sm">
+              <ul className="mt-4 space-y-4 text-sm">
                 <li>
-                  <a href="#" class="text-black transition hover:opacity-75">
+                  <a
+                    href="#"
+                    className="text-black transition hover:opacity-75"
+                  >
                     send us feedback
                   </a>
                 </li>
 
                 <li>
-                  <a href="#" class="text-black transition hover:opacity-75">
+                  <a
+                    href="#"
+                    className="text-black transition hover:opacity-75"
+                  >
                     product Reviews
                   </a>
                 </li>
 
                 <li>
-                  <a href="#" class="text-black transition hover:opacity-75">
+                  <a
+                    href="#"
+                    className="text-black transition hover:opacity-75"
+                  >
                     Latest Sales
                   </a>
                 </li>
 
                 <li>
-                  <a href="#" class="text-black transition hover:opacity-75">
+                  <a
+                    href="#"
+                    className="text-black transition hover:opacity-75"
+                  >
                     Aout US
                   </a>
                 </li>
 
                 <li>
-                  <a href="#" class="text-black transition hover:opacity-75">
+                  <a
+                    href="#"
+                    className="text-black transition hover:opacity-75"
+                  >
                     Our Blogs
                   </a>
                 </li>
@@ -163,29 +178,41 @@ const Footer = () => {
             </div>
 
             <div>
-              <p class="text-2xl text-black">Brands</p>
+              <p className="text-2xl text-black">Brands</p>
 
-              <ul class="mt-6 space-y-4 text-sm">
+              <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <Link href="#" class="text-black transition hover:opacity-75">
+                  <Link
+                    href="#"
+                    className="text-black transition hover:opacity-75"
+                  >
                     Khimars
                   </Link>
                 </li>
 
                 <li>
-                  <Link href="#" class="text-black transition hover:opacity-75">
+                  <Link
+                    href="#"
+                    className="text-black transition hover:opacity-75"
+                  >
                     Jilbabs
                   </Link>
                 </li>
 
                 <li>
-                  <Link href="#" class="text-black transition hover:opacity-75">
+                  <Link
+                    href="#"
+                    className="text-black transition hover:opacity-75"
+                  >
                     Abaya
                   </Link>
                 </li>
 
                 <li>
-                  <Link href="#" class="text-black transition hover:opacity-75">
+                  <Link
+                    href="#"
+                    className="text-black transition hover:opacity-75"
+                  >
                     Hijabs
                   </Link>
                 </li>
@@ -193,23 +220,32 @@ const Footer = () => {
             </div>
 
             <div>
-              <p class="text-2xl text-black">Helpful Links</p>
+              <p className="text-2xl text-black">Helpful Links</p>
 
-              <ul class="mt-4 space-y-4 text-sm">
+              <ul className="mt-4 space-y-4 text-sm">
                 <li>
-                  <a href="#" class="text-black transition hover:opacity-75">
+                  <a
+                    href="#"
+                    className="text-black transition hover:opacity-75"
+                  >
                     Contact
                   </a>
                 </li>
 
                 <li>
-                  <a href="#" class="text-black transition hover:opacity-75">
+                  <a
+                    href="#"
+                    className="text-black transition hover:opacity-75"
+                  >
                     FAQs
                   </a>
                 </li>
 
                 <li>
-                  <a href="#" class="text-black transition hover:opacity-75">
+                  <a
+                    href="#"
+                    className="text-black transition hover:opacity-75"
+                  >
                     More Brandings
                   </a>
                 </li>
@@ -217,29 +253,41 @@ const Footer = () => {
             </div>
 
             <div>
-              <p class="text-2xl text-black">Legal</p>
+              <p className="text-2xl text-black">Legal</p>
 
-              <ul class="mt-4 space-y-4 text-sm">
+              <ul className="mt-4 space-y-4 text-sm">
                 <li>
-                  <a href="#" class="text-black transition hover:opacity-75">
+                  <a
+                    href="#"
+                    className="text-black transition hover:opacity-75"
+                  >
                     Accessibility
                   </a>
                 </li>
 
                 <li>
-                  <a href="#" class="text-black transition hover:opacity-75">
+                  <a
+                    href="#"
+                    className="text-black transition hover:opacity-75"
+                  >
                     Returns Policy
                   </a>
                 </li>
 
                 <li>
-                  <a href="#" class="text-black transition hover:opacity-75">
+                  <a
+                    href="#"
+                    className="text-black transition hover:opacity-75"
+                  >
                     Refund Policy
                   </a>
                 </li>
 
                 <li>
-                  <a href="#" class="text-black transition hover:opacity-75">
+                  <a
+                    href="#"
+                    className="text-black transition hover:opacity-75"
+                  >
                     Hiring Statistics
                   </a>
                 </li>
@@ -247,7 +295,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <p class="text-xs text-black">
+          <p className="text-xs text-black">
             &copy; 2023. TrendyThreads. All rights reserved.
           </p>
         </div>
