@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from 'next/link';
 import React from 'react';
 
 const ProductItems = () => {
@@ -21,7 +22,10 @@ const ProductItems = () => {
 
           <ul className="grid gap-4 mt-8 sm:grid-cols-2 lg:grid-cols-4">
             <li>
-              <a href="#" className="block overflow-hidden group">
+              <Link
+                href="/product/slug"
+                className="block overflow-hidden group"
+              >
                 <img
                   src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
                   alt=""
@@ -42,11 +46,14 @@ const ProductItems = () => {
                     </span>
                   </p>
                 </div>
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" className="block overflow-hidden group">
+              <Link
+                href="/product/slug"
+                className="block overflow-hidden group"
+              >
                 <img
                   src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
                   alt=""
@@ -67,11 +74,14 @@ const ProductItems = () => {
                     </span>
                   </p>
                 </div>
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" className="block overflow-hidden group">
+              <Link
+                href="/product/slug"
+                className="block overflow-hidden group"
+              >
                 <img
                   src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
                   alt=""
@@ -92,11 +102,14 @@ const ProductItems = () => {
                     </span>
                   </p>
                 </div>
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" className="block overflow-hidden group">
+              <Link
+                href="/product/slug"
+                className="block overflow-hidden group"
+              >
                 <img
                   src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
                   alt=""
@@ -117,12 +130,12 @@ const ProductItems = () => {
                     </span>
                   </p>
                 </div>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
       </section>
-      {/* Last Section Of Products */}
+      {/* FIRST/END Section Of Products */}
     </>
   );
 };
