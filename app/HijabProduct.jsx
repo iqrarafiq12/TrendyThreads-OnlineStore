@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
 import React from 'react';
@@ -7,16 +8,21 @@ const ProductItems = () => {
     <>
       {/* First Section Of Products */}
       <section>
-        <div className="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8">
-          <header className="text-center">
-            <h2 className="text-xl font-bold text-gray-900 sm:text-3xl">
-              New Collection
+        <div className="max-w-screen-xl px-2 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8">
+          <header className="text-center py-4">
+            <h2 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-6xl">
+              Discover the Perfect Hijab Collection for Modest Fashionistas
             </h2>
 
-            <p className="max-w-md mx-auto mt-4 text-gray-500">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque
-              praesentium cumque iure dicta incidunt est ipsam, officia dolor
-              fugit natus?
+            <p className="mb-8 text-lg font-normal text-black lg:text-xl sm:px-16 lg:px-48">
+              Step into a world of fashion and modesty with our exclusive hijab
+              collection. Designed for the modern Muslim woman, our collection
+              showcases a wide range of stylish and elegant hijabs that blend
+              seamlessly with your personal style. From vibrant prints to
+              sophisticated solids, each hijab is meticulously crafted to
+              provide comfort, versatility, and a touch of glamour to your
+              everyday look. Explore our collection now and elevate your modest
+              wardrobe with confidence and grace.
             </p>
           </header>
 
@@ -27,13 +33,13 @@ const ProductItems = () => {
                 className="block overflow-hidden group"
               >
                 <img
-                  src="/assets/HijabBlack-01.png"
+                  src="/assets/HijabGray-01.webp"
                   class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
 
                 <div className="relative pt-3 bg-white">
                   <h3 className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
-                    Full Coverage Essential Under Scarf Black
+                    DEEP TAUPE Premium Cotton
                   </h3>
 
                   <p className="mt-2">
@@ -41,7 +47,7 @@ const ProductItems = () => {
 
                     <span className="tracking-wider text-gray-900">
                       {' '}
-                      £24.00 GBP{' '}
+                      $15.95{' '}
                     </span>
                   </p>
                 </div>
@@ -54,14 +60,14 @@ const ProductItems = () => {
                 className="block overflow-hidden group"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                  src="/assets/HijabPeach-01.webp"
                   alt=""
                   className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
 
                 <div className="relative pt-3 bg-white">
                   <h3 className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
-                    Basic Tee
+                    Access 2.0 Desert Sand
                   </h3>
 
                   <p className="mt-2">
@@ -69,7 +75,7 @@ const ProductItems = () => {
 
                     <span className="tracking-wider text-gray-900">
                       {' '}
-                      £24.00 GBP{' '}
+                      $17.95{' '}
                     </span>
                   </p>
                 </div>
@@ -82,14 +88,14 @@ const ProductItems = () => {
                 className="block overflow-hidden group"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                  src="/assets/HijabSkin-01.webp"
                   alt=""
                   class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
 
                 <div className="relative pt-3 bg-white">
                   <h3 className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
-                    Basic Tee
+                    SENECA Premium Jersey
                   </h3>
 
                   <p className="mt-2">
@@ -97,7 +103,7 @@ const ProductItems = () => {
 
                     <span className="tracking-wider text-gray-900">
                       {' '}
-                      £24.00 GBP{' '}
+                      $18.95{' '}
                     </span>
                   </p>
                 </div>
@@ -110,14 +116,14 @@ const ProductItems = () => {
                 className="block overflow-hidden group"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                  src="/assets/HijabPruple-01.webp"
                   alt=""
                   class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
 
                 <div className="relative pt-3 bg-white">
                   <h3 className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
-                    Basic Tee
+                    ANEMONE Chiffon
                   </h3>
 
                   <p className="mt-2">
@@ -125,7 +131,7 @@ const ProductItems = () => {
 
                     <span className="tracking-wider text-gray-900">
                       {' '}
-                      £24.00 GBP{' '}
+                      $17.95{' '}
                     </span>
                   </p>
                 </div>

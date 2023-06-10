@@ -1,6 +1,6 @@
 import Wrapper from '@/components/Wrapper';
 import React from 'react';
-import ProductDetails from '@/components/ProductDetails';
+import ProductDetails from '@/app/HijabProDetails';
 
 import { IoMdHeartEmpty } from 'react-icons/io';
 
