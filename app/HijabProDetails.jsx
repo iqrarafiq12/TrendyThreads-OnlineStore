@@ -11,8 +11,13 @@ function ProductDetails() {
           showIndicators={false}
           showStatus={false}
           thumbWidth={60}
-          className="productCrousel"
-        ></Carousel>
+          className="productCarousel"
+        >
+          <img src="/assets/HijabSkin-01.webp" />
+          <img src="/assets/HijabSkin-02.webp" />
+          <img src="/assets/HijabSkin-03.webp" />
+          <img src="/assets/HijabSkin-04.webp" />
+        </Carousel>
       </div>
     </>
   );
