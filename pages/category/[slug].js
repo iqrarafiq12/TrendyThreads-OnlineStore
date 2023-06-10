@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Wrapper from '@/components/Wrapper';
-import ProductItems from '@/components/ProductItems';
+import ProductItems from '@/app/HijabProduct';
 
 const Cetegory = () => {
   return (

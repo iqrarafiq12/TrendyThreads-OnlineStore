@@ -13,7 +13,7 @@ const Product = () => {
             {/*  div left one */}
             <div className="w-full md:w-auto flex-[1.5] max-w-[500px] lg:max-w-full mx-auto lg:mx-0">
               {/* Left Column Start */}
-              <ProductDetails />
+              left <ProductDetails />
               {/* Left Column end */}
             </div>
             {/*  div Right one */}

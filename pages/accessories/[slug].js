@@ -1,16 +1,16 @@
 import React from 'react';
 import Wrapper from '@/components/Wrapper';
-import ProductItems from '@/components/ProductItems';
-const productItems = () => {
+import AccessoriesProducts from '@/app/AccessoriesProducts';
+const Hijabs = () => {
   return (
     <>
       <div className="w-full md:py-20">
         <Wrapper>
-          <ProductItems />
+          <AccessoriesProducts />
         </Wrapper>
       </div>
     </>
   );
 };
 
-export default productItems;
+export default Hijabs;
