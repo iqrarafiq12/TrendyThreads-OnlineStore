@@ -1,6 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
+
 import React, { useState, useEffect } from 'react';
 import Wrapper from './Wrapper';
 import Link from 'next/link';
@@ -76,20 +77,21 @@ const Header = () => {
           {/* Icon end */}
 
           {/* Icon start */}
-
-          <div className="w-8 md:w-12 h-8 md:h-12 rounded-full flex  cursor-pointer relative justify-center items-center hover:bg-black/[0.05]">
-            <BsCart className="text-[20px] md:text-[26px]" />
-            <div
-              className="h-[14px] md:h-[18px] min-w-[14px] md:min-w-[18px] rounded-full bg-red-600 top-1 left-1 md:left-7 text-white text-[10px]
+          <Link href="/Cart">
+            <div className="w-8 md:w-12 h-8 md:h-12 rounded-full flex  cursor-pointer relative justify-center items-center hover:bg-black/[0.05]">
+              <BsCart className="text-[20px] md:text-[26px]" />
+              <div
+                className="h-[14px] md:h-[18px] min-w-[14px] md:min-w-[18px] rounded-full bg-red-600 top-1 left-1 md:left-7 text-white text-[10px]
             md:text-[12px] flex justify-center items-center px-[2px] md:[5px]"
-            >
-              5
+              >
+                5
+              </div>
             </div>
-          </div>
+          </Link>
           {/* Icon end */}
 
           {/* mobile menu start */}
-          <div className="w-8 md:w-12 h-8 md:h-12 rounded-full flex  cursor-pointer relative justify-center items-center hover:bg-black/[0.05] -mr-2">
+          <div className="w-8 md:w-12 h-8 md:h-12 rounded-full flex md:hidden cursor-pointer relative justify-center items-center hover:bg-black/[0.05] -mr-2">
             {mobileMenu ? (
               <VscChromeClose
                 className="text-[16px]"
@@ -102,6 +104,7 @@ const Header = () => {
               />
             )}
           </div>
+
           {/* mobile menu end */}
         </div>
       </Wrapper>

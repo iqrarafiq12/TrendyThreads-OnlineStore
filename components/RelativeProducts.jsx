@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import Link from 'next/link';
 import Carousel from 'react-multi-carousel';
@@ -43,69 +44,75 @@ function RelativeProducts() {
             itemClass="carousel-item-padding-40-px"
           >
             {/* FOR HIJAB */}
+            {/* SLIDE 01 */}
             <Link href="/product/slug">
               <img
-                src="/assets/HijabSkin-01.webp"
+                src="/RelativeImages/Slide-01.webp"
                 alt=""
-                className="p-3 py-4"
+                className="py-4 px-2"
               />
             </Link>
+            {/* SLIDE 02 */}
+            <Link href="/product/slug">
+              <img src="/RelativeImages/Slide-02.webp" />
+            </Link>
+            {/* SLIDE 03 */}
             <Link href="/product/slug">
               <img
-                src="/assets/HijabSkin-01.webp"
+                src="/RelativeImages/Slide-03.webp"
                 alt=""
-                className="p-3 py-4"
+                className="py-4 px-2"
               />
             </Link>
+            {/* AccessoriesImages */}
+            {/* SLIDE 01 */}
             <Link href="/product/slug">
               <img
-                src="/assets/HijabSkin-01.webp"
+                src="/RelativeImages/Slide-04.webp"
                 alt=""
-                className="p-3 py-4"
+                className="py-4 px-2"
               />
             </Link>
-            {/* FOR ATTIRE */}
+            {/* SLIDE 02 */}
             <Link href="/product/slug">
               <img
-                src="/assets/HijabGray-01.webp"
+                src="/RelativeImages/Slide-05.webp"
                 alt=""
-                className="p-3 py-4"
+                className="py-2 px-4"
               />
             </Link>
+            {/* SLIDE 03 */}
             <Link href="/product/slug">
               <img
-                src="/assets/HijabGray-01.webp"
+                src="/RelativeImages/Slide-06.webp"
                 alt=""
-                className="p-3 py-4"
+                className="py-4 px-2"
               />
             </Link>
+
+            {/* ClothingImages */}
+            {/* SLIDE 01 */}
             <Link href="/product/slug">
               <img
-                src="/assets/HijabGray-01.webp"
+                src="/RelativeImages/Slide-07.webp"
                 alt=""
-                className="p-3 py-4"
+                className="py-6 px-4"
               />
             </Link>
-            {/* FOR ACCESSORIES */}
+            {/* SLIDE 02 */}
             <Link href="/product/slug">
               <img
-                src="/assets/HijabPeach-02.webp"
+                src="/RelativeImages/Slide-08.webp"
                 alt=""
-                className="p-3 py-4"
+                className="py-4 px-2"
               />
             </Link>
+            {/* SLIDE 03 */}
             <Link href="/product/slug">
               <img
-                src="/assets/HijabPruple-01.webp"
+                src="/RelativeImages/Slide-09.webp"
                 alt=""
-                className="p-3 py-4"
-              />
-            </Link>
-            <Link href="/product/slug">
-              <img
-                src="/assets/HijabPruple-01.webp"
-                alt=""
-                className="p-3 py-4"
+                className="py-6 px-4"
               />
             </Link>
           </Carousel>

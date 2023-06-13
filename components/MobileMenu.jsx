@@ -4,17 +4,16 @@ import { BsChevronDown } from 'react-icons/bs';
 
 // dummy data // server at the end
 const data = [
-  { id: 1, name: 'Home', url: '/' },
+  { id: 1, name: 'Home', url: '/', href: '/pages/About' },
   { id: 2, name: 'About', url: '/about' },
   { id: 3, name: 'Categories', subMenu: true },
   { id: 4, name: 'Contact', url: '/contact' },
 ];
 
 const subMenuData = [
-  { id: 1, name: 'Silbury', doc_count: 200 },
-  { id: 2, name: 'LimeLight', doc_count: 15 },
-  { id: 3, name: 'Khaadi', doc_count: 64 },
-  { id: 4, name: 'NishatLinen', doc_count: 107 },
+  { id: 1, name: 'Hijabs', doc_count: 200 },
+  { id: 2, name: 'Accessories', doc_count: 15 },
+  { id: 3, name: 'Clothings', doc_count: 64 },
 ];
 
 const MobileMenu = ({ showCatMenu, setShowCatMenu, setMobileMenu }) => {
