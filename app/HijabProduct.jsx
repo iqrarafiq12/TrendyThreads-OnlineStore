@@ -33,22 +33,19 @@ const ProductItems = () => {
                 className="block overflow-hidden group"
               >
                 <img
-                  src="/assets/HijabGray-01.webp"
+                  src="/HijabsImages/JerseyHijab-01.webp"
                   class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
 
                 <div className="relative pt-3 bg-white">
                   <h3 className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
-                    DEEP TAUPE Premium Cotton
+                    JERSEY HIJAB- FAYROUZ
                   </h3>
 
                   <p className="mt-2">
                     <span className="sr-only"> Regular Price </span>
 
-                    <span className="tracking-wider text-gray-900">
-                      {' '}
-                      $15.95{' '}
-                    </span>
+                    <span className="tracking-wider text-gray-900">$15.95</span>
                   </p>
                 </div>
               </Link>
@@ -60,14 +57,14 @@ const ProductItems = () => {
                 className="block overflow-hidden group"
               >
                 <img
-                  src="/assets/HijabPeach-01.webp"
+                  src="/HijabsImages/CottonHijab-01.webp"
                   alt=""
                   className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
 
                 <div className="relative pt-3 bg-white">
                   <h3 className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
-                    Access 2.0 Desert Sand
+                    COTTON CRINKLE HIJAB- WORTHY
                   </h3>
 
                   <p className="mt-2">
@@ -84,18 +81,18 @@ const ProductItems = () => {
 
             <li>
               <Link
-                href="/product/slug"
+                href="/HijabCollection/Details"
                 className="block overflow-hidden group"
               >
                 <img
-                  src="/assets/HijabSkin-01.webp"
+                  src="/HijabsImages/HijabChiffon-01.webp"
                   alt=""
                   class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
 
                 <div className="relative pt-3 bg-white">
                   <h3 className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
-                    SENECA Premium Jersey
+                    CHIFFON HIJAB - TAUPE
                   </h3>
 
                   <p className="mt-2">
@@ -116,7 +113,7 @@ const ProductItems = () => {
                 className="block overflow-hidden group"
               >
                 <img
-                  src="/assets/HijabPruple-01.webp"
+                  src="/HijabsImages/RoyanHijab-01.webp"
                   alt=""
                   class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
