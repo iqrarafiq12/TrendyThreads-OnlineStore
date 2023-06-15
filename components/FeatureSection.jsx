@@ -23,11 +23,11 @@ const FeatureSection = () => {
 
           <ul className="grid grid-cols-1 gap-4 mt-8 lg:grid-cols-3">
             <li>
-              <Link href="/Hijabs/slug" className="relative block group">
+              <Link href="/Hijabs/Collection" className="relative block group">
                 <img
                   src="/FS-01.png"
                   alt=""
-                  className="object-cover w-full transition duration-500 aspect-square group-hover:opacity-90"
+                  className="object-cover w-full transition py-1 px-2  duration-500 aspect-square group-hover:opacity-90"
                 />
 
                 <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
@@ -46,11 +46,14 @@ const FeatureSection = () => {
             </li>
 
             <li>
-              <Link href="/accessories/slug" className="relative block group">
+              <Link
+                href="/accessories/collection"
+                className="relative block group"
+              >
                 <img
                   src="/FS-02.png"
                   alt=""
-                  class="object-cover w-full transition duration-500 aspect-square group-hover:opacity-90"
+                  class="object-cover w-full py-1 px-2  transition duration-500 aspect-square group-hover:opacity-90"
                 />
 
                 <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
@@ -73,12 +76,12 @@ const FeatureSection = () => {
                 <img
                   src="/FS-03.png"
                   alt=""
-                  className="object-cover w-full transition duration-500 aspect-square group-hover:opacity-90"
+                  className="object-cover w-full transition py-1 px-2 duration-500 aspect-square group-hover:opacity-90"
                 />
 
                 <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
                   <h3 className="text-xl font-medium text-white">
-                    New Abaya Arrival
+                    ATTIRE COLECTION
                   </h3>
 
                   <Link
