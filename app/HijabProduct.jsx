@@ -28,8 +28,9 @@ const ProductItems = () => {
 
           <ul className="grid gap-4 mt-8 sm:grid-cols-2 lg:grid-cols-4">
             <li>
+              {/* JERSEY HIJAB */}
               <Link
-                href="/product/slug"
+                href="/Jersey/Hijab"
                 className="block overflow-hidden group"
               >
                 <img
@@ -52,8 +53,9 @@ const ProductItems = () => {
             </li>
 
             <li>
+              {/* COTTON HIJABS */}
               <Link
-                href="/product/slug"
+                href="/Cotton/CottonHijabs"
                 className="block overflow-hidden group"
               >
                 <img
@@ -80,8 +82,9 @@ const ProductItems = () => {
             </li>
 
             <li>
+              {/* CHIFFON PRODUCTION */}
               <Link
-                href="/HijabCollection/Details"
+                href="/Chiffon/ChiffonHijab"
                 className="block overflow-hidden group"
               >
                 <img
@@ -108,8 +111,9 @@ const ProductItems = () => {
             </li>
 
             <li>
+              {/* Royan Hijab */}
               <Link
-                href="/product/slug"
+                href="/Royan/RoyanHijabs"
                 className="block overflow-hidden group"
               >
                 <img

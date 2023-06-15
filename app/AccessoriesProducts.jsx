@@ -23,8 +23,9 @@ const AccessoriesProducts = () => {
 
           <ul className="grid gap-4 mt-8 sm:grid-cols-2 lg:grid-cols-4">
             <li>
+              {/* scrunchies */}
               <Link
-                href="/product/slug"
+                href="/Scrunchies/Volumize"
                 className="block overflow-hidden group"
               >
                 <img
@@ -49,8 +50,9 @@ const AccessoriesProducts = () => {
             </li>
 
             <li>
+              {/* Hijab Pins */}
               <Link
-                href="/product/slug"
+                href="/Magnets/HijabPins"
                 className="block overflow-hidden group"
               >
                 <img
@@ -74,8 +76,9 @@ const AccessoriesProducts = () => {
             </li>
 
             <li>
+              {/* UNDERCAPS */}
               <Link
-                href="/product/slug"
+                href="/UnderCaps/UndercapsForHijabis"
                 className="block overflow-hidden group"
               >
                 <img
@@ -99,8 +102,9 @@ const AccessoriesProducts = () => {
             </li>
 
             <li>
+              {/* NECK COVERS */}
               <Link
-                href="/product/slug"
+                href="/NeckCovers/Hijabis-NeckCovers"
                 className="block overflow-hidden group"
               >
                 <img

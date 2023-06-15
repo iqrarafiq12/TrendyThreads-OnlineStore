@@ -11,11 +11,11 @@ const ClothingProducts = () => {
         <div className="max-w-screen-xl px-2 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8">
           <header className="text-center py-4">
             <h2 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-6xl">
-              ABAYA 2023 COLLECTION
+              DRESSES EID 2k23 COLLECTION
             </h2>
 
             <p className="mb-8 text-lg font-normal text-black lg:text-xl sm:px-16 lg:px-48">
-              Introducing our exclusive Bohemian Abaya Collection! With a
+              Introducing our exclusive Bohemian Eid Collection! With a
               beautiful array of earthy tones and a versatile 3 piece set, this
               collection is perfect for the modern woman who wants to add a
               touch of elegance and femininity to her wardrobe. Each piece has
@@ -26,8 +26,9 @@ const ClothingProducts = () => {
 
           <ul className="grid gap-4 mt-8 sm:grid-cols-2 lg:grid-cols-4">
             <li>
+              {/* DRESSES */}
               <Link
-                href="/product/slug"
+                href="/Dresses/Eid2k23"
                 className="block overflow-hidden group"
               >
                 <img
@@ -50,8 +51,9 @@ const ClothingProducts = () => {
             </li>
 
             <li>
+              {/* PANTS */}
               <Link
-                href="/product/slug"
+                href="/Pants/cOLLECTION"
                 className="block overflow-hidden group"
               >
                 <img
@@ -75,8 +77,9 @@ const ClothingProducts = () => {
             </li>
 
             <li>
+              {/* BlazerCollection */}
               <Link
-                href="/product/slug"
+                href="/Waist/Blazer-Collection"
                 className="block overflow-hidden group"
               >
                 <img
@@ -100,8 +103,9 @@ const ClothingProducts = () => {
             </li>
 
             <li>
+              {/* JILBAB */}
               <Link
-                href="/product/slug"
+                href="/Abaya/Jilbab-Collection"
                 className="block overflow-hidden group"
               >
                 <img
