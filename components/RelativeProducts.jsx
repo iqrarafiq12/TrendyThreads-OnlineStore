@@ -45,7 +45,7 @@ function RelativeProducts() {
           >
             {/* FOR HIJAB */}
             {/* SLIDE 01 */}
-            <Link href="/product/slug">
+            <Link href="/Chiffon/ChiffonHijab">
               <img
                 src="/RelativeImages/Slide-01.webp"
                 alt=""
@@ -53,11 +53,11 @@ function RelativeProducts() {
               />
             </Link>
             {/* SLIDE 02 */}
-            <Link href="/product/slug">
+            <Link href="/Cotton/CottonHijabs">
               <img src="/RelativeImages/Slide-02.webp" />
             </Link>
             {/* SLIDE 03 */}
-            <Link href="/product/slug">
+            <Link href="/Jersey/Hijab">
               <img
                 src="/RelativeImages/Slide-03.webp"
                 alt=""
@@ -66,7 +66,7 @@ function RelativeProducts() {
             </Link>
             {/* AccessoriesImages */}
             {/* SLIDE 01 */}
-            <Link href="/product/slug">
+            <Link href="/NeckCovers/Hijabis-NeckCovers">
               <img
                 src="/RelativeImages/Slide-04.webp"
                 alt=""
@@ -74,7 +74,7 @@ function RelativeProducts() {
               />
             </Link>
             {/* SLIDE 02 */}
-            <Link href="/product/slug">
+            <Link href="/UnderCaps/UndercapsForHijabis">
               <img
                 src="/RelativeImages/Slide-05.webp"
                 alt=""
@@ -82,7 +82,7 @@ function RelativeProducts() {
               />
             </Link>
             {/* SLIDE 03 */}
-            <Link href="/product/slug">
+            <Link href="/Scrunchies/Volumize">
               <img
                 src="/RelativeImages/Slide-06.webp"
                 alt=""
@@ -92,7 +92,7 @@ function RelativeProducts() {
 
             {/* ClothingImages */}
             {/* SLIDE 01 */}
-            <Link href="/product/slug">
+            <Link href="/Dresses/Eid2k23">
               <img
                 src="/RelativeImages/Slide-07.webp"
                 alt=""

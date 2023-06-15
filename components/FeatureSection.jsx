@@ -36,7 +36,7 @@ const FeatureSection = () => {
                   </h3>
 
                   <Link
-                    href="/Hijabs/slug"
+                    href="/Hijabs/Collection"
                     className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white"
                   >
                     Shop Now
@@ -62,7 +62,7 @@ const FeatureSection = () => {
                   </h3>
 
                   <Link
-                    href="/accessories/slug"
+                    href="/accessories/collection"
                     className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white"
                   >
                     Shop Now
@@ -72,7 +72,7 @@ const FeatureSection = () => {
             </li>
 
             <li className="lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:row-start-1">
-              <Link href="/attire/slug" className="relative block group">
+              <Link href="/attire/Collection" className="relative block group">
                 <img
                   src="/FS-03.png"
                   alt=""
@@ -85,7 +85,7 @@ const FeatureSection = () => {
                   </h3>
 
                   <Link
-                    href="/attire/slug"
+                    href="/attire/Collection"
                     className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white"
                   >
                     Shop Now
