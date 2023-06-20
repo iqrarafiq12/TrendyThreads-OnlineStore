@@ -26,7 +26,6 @@ function RelativeProducts() {
     <>
       <div className="w-full md:py-20">
         <div className="mt-[50px] text-center p-3 md:mt-[50px] mb-[50px] md:mb-0">
-          <div className="text-2xl font-bold mb-5">You Might Also Like</div>
           <Carousel
             swipeable={false}
             draggable={false}
