@@ -102,8 +102,8 @@ const ProductItems = () => {
                     <span className="sr-only"> Regular Price </span>
 
                     <span className="tracking-wider text-gray-900">
-                      {' '}
-                      $18.95{' '}
+                  
+                      $18.95
                     </span>
                   </p>
                 </div>
@@ -131,8 +131,8 @@ const ProductItems = () => {
                     <span className="sr-only"> Regular Price </span>
 
                     <span className="tracking-wider text-gray-900">
-                      {' '}
-                      $17.95{' '}
+                    
+                      $17.95
                     </span>
                   </p>
                 </div>

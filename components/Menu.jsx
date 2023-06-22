@@ -15,8 +15,6 @@ const subMenuData = [
     id: 1,
     name: 'Hijabs',
     doc_count: 200,
-    url: '/About',
-    href: '/pages/About',
   },
   { id: 2, name: 'Accessories', doc_count: 15 },
   { id: 3, name: 'Clothings', doc_count: 64 },

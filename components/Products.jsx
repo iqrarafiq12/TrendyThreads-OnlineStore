@@ -7,7 +7,7 @@ const Products = () => {
     <>
       <section>
         <div className="max-w-screen-xl px-2 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8">
-          <h2 class="text-center text-3xl text-black font-semibold tracking-wide uppercase">
+          <h2 className="text-center text-3xl text-black font-semibold tracking-wide uppercase">
             Products
           </h2>
           <ul className="grid gap-4 mt-8 sm:grid-cols-2 lg:grid-cols-4">
@@ -20,7 +20,7 @@ const Products = () => {
                 <img
                   src="/ClothingImages/Blazers-01.webp"
                   alt=""
-                  class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+                  className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
 
                 <div className="relative pt-3 bg-white">
@@ -72,7 +72,7 @@ const Products = () => {
               >
                 <img
                   src="/AccessoriesImages/Scrunchies-01.webp"
-                  class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+                  className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
 
                 <div className="relative pt-3 bg-white">
@@ -98,7 +98,7 @@ const Products = () => {
               >
                 <img
                   src="/ClothingImages/DressImage-01.webp"
-                  class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+                  className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
 
                 <div className="relative pt-3 bg-white">
